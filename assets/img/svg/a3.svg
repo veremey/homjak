@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 23.073 21.518" style="enable-background:new 0 0 23.073 21.518;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#000000;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{stroke:#000000;stroke-width:0.2758;stroke-miterlimit:10;}
+</style>
+<g>
+	<polygon class="st0" points="3.49,17.074 1.948,20.574 0.406,17.074 0.406,1.437 3.49,1.437 	"/>
+	<line class="st1" x1="1.948" y1="1.437" x2="1.948" y2="17.074"/>
+	<line class="st1" x1="1.309" y1="19.198" x2="2.587" y2="19.198"/>
+	<line class="st2" x1="0.606" y1="17.074" x2="3.29" y2="17.074"/>
+	<g>
+		<rect x="6.793" y="4.997" class="st0" width="14.04" height="16.083"/>
+		<line class="st0" x1="18.876" y1="4.997" x2="18.876" y2="21.08"/>
+		<polyline class="st0" points="20.853,18.698 22.706,18.698 22.706,2.898 		"/>
+		<line class="st0" x1="8.376" y1="8.22" x2="14.126" y2="8.22"/>
+		<line class="st0" x1="8.376" y1="9.872" x2="17.546" y2="9.872"/>
+		<line class="st0" x1="8.376" y1="11.525" x2="14.126" y2="11.525"/>
+		<line class="st0" x1="8.376" y1="13.177" x2="17.546" y2="13.177"/>
+		<line class="st0" x1="8.376" y1="14.83" x2="14.126" y2="14.83"/>
+		<line class="st2" x1="7.845" y1="0.399" x2="19.814" y2="0.399"/>
+		<path d="M22.318,2.898h0.748c0.001-0.018,0.007-0.034,0.007-0.052c0-1.556-1.266-2.822-2.822-2.822s-2.822,1.266-2.822,2.822
+			c0,0.866,0.395,1.636,1.011,2.151h1.374V4.87c-0.933-0.201-1.635-1.031-1.635-2.024c0-1.143,0.929-2.072,2.072-2.072
+			s2.072,0.929,2.072,2.072C22.323,2.864,22.319,2.881,22.318,2.898z"/>
+		<path d="M6.264,2.786c0-1.022,0.745-1.868,1.72-2.036V0c-1.389,0.175-2.47,1.35-2.47,2.786c0,0.866,0.395,1.636,1.011,2.151h1.374
+			V4.81C6.966,4.609,6.264,3.779,6.264,2.786z"/>
+		<circle class="st1" cx="20.32" cy="2.813" r="0.906"/>
+		<line class="st1" x1="6.264" y1="2.786" x2="7.985" y2="2.786"/>
+		<line class="st1" x1="16.139" y1="2.786" x2="17.86" y2="2.786"/>
+	</g>
+	<polygon class="st3" points="2.566,19.25 1.976,20.649 1.385,19.25 	"/>
+</g>
+</svg>

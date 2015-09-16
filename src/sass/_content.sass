@@ -1,0 +1,109 @@
+.big
+	position: relative
+	top: 0
+	height: 672px
+	&--img-wrap
+		+coverdiv
+	&-play
+		+vcenter
+		width: 90px
+		height: 90px
+		-webkit-border-radius: 100%
+		border-radius: 100%
+		background-color: #FFF
+		margin-left: 45px
+		&:hover
+			.tre
+				stroke: #000
+	&-title
+		position: relative
+		width: 300px
+		font-size: 30px
+		line-height: 35px
+		color: #454545
+		margin-bottom: 65px
+		+gb
+		&:after
+			content: ""
+			position: absolute
+			bottom: -35px
+			left: 0
+			height: 2px
+			width: 40px
+			background-color: $red
+	&--text
+		width: 480px
+		position: absolute
+		padding-top: 50px
+		top: 50%
+		transform: translate(0,-50%)
+		z-index: 2
+		p
+			margin-top: 35px
+			color: #454545
+			font-size: 15px
+			line-height: 24px
+			+gr
+			span
+				color: #454545
+				font-size: 15px
+				line-height: 24px
+				+gr
+				font-weight: 800
+	.btn
+		margin-top: 60px
+		+tr(.3s)
+		&:hover
+			-webkit-box-shadow: 0 -9px 29px rgba(255, 255, 255, .6) inset
+			box-shadow: 0 -9px 29px rgba(255, 255, 255, .6) inset
+			i:before
+					+s($downlload-black)
+		&:active
+			-webkit-box-shadow: 0 9px 29px rgba(255, 255, 255, .6) inset
+			box-shadow: 0 9px 29px rgba(255, 255, 255, .6) inset
+			i:before
+					+s($downlload)
+		i
+			position: relative
+			left: -10px
+			margin-right: 10px
+			top: 50%
+			transform: translate(0,-50%)
+			+tr(.5s)
+			&:before
+				content: ""
+				position: absolute
+				left: -10px
+				top: -5px
+				+s($downlload)
+.tre
+	width: 21px
+	height: 29px
+	fill:none
+	margin-left: 10px
+	stroke: $red
+	stroke-width: 3
+	stroke-linecap: round
+	stroke-linejoin: round
+	stroke-miterlimit: 10
+
+.icon-play
+	+vcenter
+	position: absolute
+	display: inline-block
+	+svg(play,21,29)
+.btn-red
+	min-width: 180px
+	height: 50px
+	padding: 0 15px
+	font-size: 11px
+	color: #FFF
+	text-transform: uppercase
+	background-color: $red
+	text-align: center
+	line-height: 50px
+	-webkit-border-radius: 50px
+	border-radius: 50px
+	+gbl
+	+box
+

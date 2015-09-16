@@ -19,15 +19,15 @@ var gulp = require('gulp'),
 
 var path = {
     build: {
-        html: 'build/',
-        jade: 'build/jade/',
-        js: 'build/js/',
-        jsLibs: 'build/js/partials',
-        css: 'build/css',
-        img: 'build/img/',
-        svg: 'build/img/svg',
-        icons: 'build/img/icons',
-        fonts: 'build/fonts/'
+        html: 'assets/',
+        jade: 'assets/jade/',
+        js: 'assets/js/',
+        jsLibs: 'assets/js/partials',
+        css: 'assets/css',
+        img: 'assets/img/',
+        svg: 'assets/img/svg',
+        icons: 'assets/img/icons',
+        fonts: 'assets/fonts/'
     },
     src: {
         html: 'src/*.html',
@@ -51,12 +51,12 @@ var path = {
         icons: 'src/img/icons/*.png',
         fonts: 'src/fonts/**/*.*'
     },
-    clean: './build'
+    clean: './assets'
 };
 
 var config = {
     server: {
-        baseDir: "./build"
+        baseDir: "./assets"
     },
     tunnel: false,
     host: 'localhost',
@@ -151,7 +151,7 @@ gulp.task('sprite:build', function() {
                 }
             }));
 
-    spriteData.img.pipe(gulp.dest('build/img/'));
+    spriteData.img.pipe(gulp.dest('assets/img/'));
     spriteData.css.pipe(gulp.dest('./src/sass/lib/'));
 });
 
