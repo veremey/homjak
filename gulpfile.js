@@ -158,20 +158,20 @@ gulp.task('sprite:build', function() {
 gulp.task('image:build', function () {
     gulp.src(path.src.img)
         .pipe(plumber())
-        // .pipe(imagemin({
-        //     progressive: true,
-        //     svgoPlugins: [{removeViewBox: false}],
-        //     use: [pngquant()],
-        //     interlaced: true
-        // }))
-        .pipe(gulp.dest(path.build.img));
-        // .pipe(reload({stream: true}));
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant()],
+            interlaced: true
+        }))
+        .pipe(gulp.dest(path.build.img))
+        .pipe(reload({stream: true}));
 });
 gulp.task('svg:build', function () {
     gulp.src(path.src.svg)
         .pipe(plumber())
-        .pipe(gulp.dest(path.build.svg));
-        // .pipe(reload({stream: true}));
+        .pipe(gulp.dest(path.build.svg))
+        .pipe(reload({stream: true}));
 });
 
 gulp.task('fonts:build', function() {
