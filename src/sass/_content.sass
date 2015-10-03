@@ -450,6 +450,7 @@
 			text-transform: uppercase
 			+gm
 .form--textarea
+	position: relative
 	float: right
 	width: 50%
 	padding: 10px 0 0 20px
@@ -557,3 +558,12 @@
 			height: 8px
 			background-image: url("../img/icons/check2.png")
 			+tr(.3s)
+label.has-error
+	font-size: 8px
+	color: red
+	position: absolute
+	bottom: 7px
+	left: 0
+#text_area-error.has-error
+	left: 20px
+	bottom: -10px

@@ -475,7 +475,7 @@ $(document).ready( function() {
 
 })();
 
-	// validation form
+// validation form
 $(document).ready(function() {
     function validate() {
     $('.js_validate').each(function(){
